@@ -31,7 +31,7 @@ function mostrarClima({name, main: {temp, temp_max, temp_min}, weather: [{icon}]
     actual.innerHTML = `Actual: ${tempActual}&#8451`
     maxima.innerHTML = `Máx: ${tempActual}&#8451`
     minima.innerHTML = `Mín: ${tempActual}&#8451`
-    img.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
     spinner.innerHTML = "";
 }
